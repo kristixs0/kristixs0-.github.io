@@ -1,0 +1,11 @@
+.card {
+    padding: 25px;
+    margin-top: 30px;
+    width: 35%;
+    background: white;
+    box-shadow: 2px 4px 6px 0px blue;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 3px 0px 8px 20px red;
+}

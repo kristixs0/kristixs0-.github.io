@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper > * {
+padding: 15px;
+flex: 1 115%;
+}
+
+.header {
+    background: tomato;
+}
+
+.footer {
+background: lightgreen;
+}
+
+.main {
+   text-align: left; 
+   background: deepskyblue;
+}
+
+.aside-1 {
+    background: gold;
+    
+}
+
+.aside-2 {
+    background: hotpink;
+}
